@@ -45,5 +45,5 @@ router.get('/:menuList', async (req, res) => {
         res.status(500).json("error:",error)
     }
  })
- 
+ //comment added for testing purposse
 module.exports = router;
